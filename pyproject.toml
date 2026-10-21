@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-cli-tool"
+version = "0.1.0"
+description = "一个简洁的 Python 命令行工具示例"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+my-cli-tool = "my_cli_tool.cli:main"
